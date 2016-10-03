@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6F0A809F91B49D010EA2459 /* libPods-SOAWSUpload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D61C3F56B1EFAA38A98CAC28 /* libPods-SOAWSUpload.a */; };
+		F91BA6561D9FB424007EED68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BA6551D9FB424007EED68 /* AppDelegate.swift */; };
+		F91BA6581D9FB424007EED68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BA6571D9FB424007EED68 /* ViewController.swift */; };
+		F91BA65B1D9FB424007EED68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91BA6591D9FB424007EED68 /* Main.storyboard */; };
+		F91BA65D1D9FB424007EED68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91BA65C1D9FB424007EED68 /* Assets.xcassets */; };
+		F91BA6601D9FB424007EED68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91BA65E1D9FB424007EED68 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AF72D8680E114D1F6F9C121 /* Pods-SOAWSUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOAWSUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-SOAWSUpload/Pods-SOAWSUpload.release.xcconfig"; sourceTree = "<group>"; };
+		D572FEE8DF8EF310C6ED3AB7 /* Pods-SOAWSUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOAWSUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SOAWSUpload/Pods-SOAWSUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		D61C3F56B1EFAA38A98CAC28 /* libPods-SOAWSUpload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SOAWSUpload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91BA6521D9FB423007EED68 /* SOAWSUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOAWSUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91BA6551D9FB424007EED68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F91BA6571D9FB424007EED68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F91BA65A1D9FB424007EED68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F91BA65C1D9FB424007EED68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F91BA65F1D9FB424007EED68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F91BA6611D9FB424007EED68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91BA6671D9FB8D0007EED68 /* SOAWSUpload-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOAWSUpload-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F91BA64F1D9FB423007EED68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F0A809F91B49D010EA2459 /* libPods-SOAWSUpload.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53E76C02E6C7839276642F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D61C3F56B1EFAA38A98CAC28 /* libPods-SOAWSUpload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E9924D61A2B82AD5B7CDA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D572FEE8DF8EF310C6ED3AB7 /* Pods-SOAWSUpload.debug.xcconfig */,
+				4AF72D8680E114D1F6F9C121 /* Pods-SOAWSUpload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F91BA6491D9FB423007EED68 = {
+			isa = PBXGroup;
+			children = (
+				F91BA6541D9FB424007EED68 /* SOAWSUpload */,
+				F91BA6531D9FB423007EED68 /* Products */,
+				F0E9924D61A2B82AD5B7CDA1 /* Pods */,
+				53E76C02E6C7839276642F6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F91BA6531D9FB423007EED68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F91BA6521D9FB423007EED68 /* SOAWSUpload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F91BA6541D9FB424007EED68 /* SOAWSUpload */ = {
+			isa = PBXGroup;
+			children = (
+				F91BA6551D9FB424007EED68 /* AppDelegate.swift */,
+				F91BA6571D9FB424007EED68 /* ViewController.swift */,
+				F91BA6591D9FB424007EED68 /* Main.storyboard */,
+				F91BA65C1D9FB424007EED68 /* Assets.xcassets */,
+				F91BA65E1D9FB424007EED68 /* LaunchScreen.storyboard */,
+				F91BA6611D9FB424007EED68 /* Info.plist */,
+				F91BA6671D9FB8D0007EED68 /* SOAWSUpload-Bridging-Header.h */,
+			);
+			path = SOAWSUpload;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F91BA6511D9FB423007EED68 /* SOAWSUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91BA6641D9FB424007EED68 /* Build configuration list for PBXNativeTarget "SOAWSUpload" */;
+			buildPhases = (
+				7BDEAC3570C510D4F1FFC4B6 /* Check Pods Manifest.lock */,
+				F91BA64E1D9FB423007EED68 /* Sources */,
+				F91BA64F1D9FB423007EED68 /* Frameworks */,
+				F91BA6501D9FB423007EED68 /* Resources */,
+				530C859C34FF87BFA71934DE /* Embed Pods Frameworks */,
+				6EB0CAD16ECD9DE3132F311E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOAWSUpload;
+			productName = SOAWSUpload;
+			productReference = F91BA6521D9FB423007EED68 /* SOAWSUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F91BA64A1D9FB423007EED68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = myCompany;
+				TargetAttributes = {
+					F91BA6511D9FB423007EED68 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F91BA64D1D9FB423007EED68 /* Build configuration list for PBXProject "SOAWSUpload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F91BA6491D9FB423007EED68;
+			productRefGroup = F91BA6531D9FB423007EED68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F91BA6511D9FB423007EED68 /* SOAWSUpload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F91BA6501D9FB423007EED68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91BA6601D9FB424007EED68 /* LaunchScreen.storyboard in Resources */,
+				F91BA65D1D9FB424007EED68 /* Assets.xcassets in Resources */,
+				F91BA65B1D9FB424007EED68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		530C859C34FF87BFA71934DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOAWSUpload/Pods-SOAWSUpload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB0CAD16ECD9DE3132F311E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOAWSUpload/Pods-SOAWSUpload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BDEAC3570C510D4F1FFC4B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F91BA64E1D9FB423007EED68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91BA6581D9FB424007EED68 /* ViewController.swift in Sources */,
+				F91BA6561D9FB424007EED68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F91BA6591D9FB424007EED68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91BA65A1D9FB424007EED68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F91BA65E1D9FB424007EED68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91BA65F1D9FB424007EED68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F91BA6621D9FB424007EED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F91BA6631D9FB424007EED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F91BA6651D9FB424007EED68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D572FEE8DF8EF310C6ED3AB7 /* Pods-SOAWSUpload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOAWSUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extention.SOAWSUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/SOTSYS203/Desktop/SOAWSUpload/SOAWSUpload/SOAWSUpload-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F91BA6661D9FB424007EED68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF72D8680E114D1F6F9C121 /* Pods-SOAWSUpload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOAWSUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extention.SOAWSUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/SOTSYS203/Desktop/SOAWSUpload/SOAWSUpload/SOAWSUpload-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F91BA64D1D9FB423007EED68 /* Build configuration list for PBXProject "SOAWSUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91BA6621D9FB424007EED68 /* Debug */,
+				F91BA6631D9FB424007EED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F91BA6641D9FB424007EED68 /* Build configuration list for PBXNativeTarget "SOAWSUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91BA6651D9FB424007EED68 /* Debug */,
+				F91BA6661D9FB424007EED68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F91BA64A1D9FB423007EED68 /* Project object */;
+}

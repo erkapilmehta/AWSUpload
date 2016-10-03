@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uFg-ua-SM4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5Vt-9z-bVd">
+            <objects>
+                <viewController id="dAt-Ga-hia" customClass="ViewController" customModule="SOAWSUpload" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ajh-0O-41X"/>
+                        <viewControllerLayoutGuide type="bottom" id="k6K-VF-13z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oip-ft-khU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vPS-aD-Dt3">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AWS S3 Upload" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtS-JT-POq">
+                                        <rect key="frame" x="231" y="28" width="139" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="ERO-et-m0L"/>
+                                            <constraint firstAttribute="width" constant="139" id="KZK-gL-sXO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.87450980389999999" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="QtS-JT-POq" firstAttribute="centerX" secondItem="vPS-aD-Dt3" secondAttribute="centerX" id="K2v-X3-HS9"/>
+                                    <constraint firstAttribute="height" constant="64" id="MnM-FB-g0h"/>
+                                    <constraint firstItem="QtS-JT-POq" firstAttribute="centerY" secondItem="vPS-aD-Dt3" secondAttribute="centerY" constant="6.5" id="fht-gD-ASd"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_img_placeholder-1" translatesAutoresizingMaskIntoConstraints="NO" id="tNS-fa-5BN">
+                                <rect key="frame" x="190" y="97" width="220" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="xEj-uZ-I9G"/>
+                                    <constraint firstAttribute="height" constant="220" id="xgT-Tp-aNF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSC-LR-WDD">
+                                <rect key="frame" x="189" y="550" width="222" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222" id="Fe1-1l-SAi"/>
+                                    <constraint firstAttribute="height" constant="30" id="k1N-7n-9sh"/>
+                                </constraints>
+                                <state key="normal" title="Upload on AWS S3">
+                                    <color key="titleColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="uploadOnAWSS3:" destination="dAt-Ga-hia" eventType="touchUpInside" id="kLi-mH-ByH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwi-5g-wKK">
+                                <rect key="frame" x="189" y="507" width="222" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cYB-LB-bYo"/>
+                                    <constraint firstAttribute="width" constant="222" id="lxV-6Y-zy8"/>
+                                </constraints>
+                                <state key="normal" title="Get Image From Gallery">
+                                    <color key="titleColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getImageFromGallary:" destination="dAt-Ga-hia" eventType="touchUpInside" id="Oq9-Qq-8rk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GSC-LR-WDD" firstAttribute="centerX" secondItem="oip-ft-khU" secondAttribute="centerX" id="3nQ-3Z-cz5"/>
+                            <constraint firstItem="k6K-VF-13z" firstAttribute="top" secondItem="GSC-LR-WDD" secondAttribute="bottom" constant="20" id="4to-Rj-CeS"/>
+                            <constraint firstItem="vPS-aD-Dt3" firstAttribute="top" secondItem="oip-ft-khU" secondAttribute="top" id="AU9-L6-0jj"/>
+                            <constraint firstItem="tNS-fa-5BN" firstAttribute="centerX" secondItem="oip-ft-khU" secondAttribute="centerX" id="Chr-DF-wj9"/>
+                            <constraint firstItem="GSC-LR-WDD" firstAttribute="top" secondItem="jwi-5g-wKK" secondAttribute="bottom" constant="13" id="HOA-1d-4h0"/>
+                            <constraint firstAttribute="trailing" secondItem="vPS-aD-Dt3" secondAttribute="trailing" id="Lvk-60-aLv"/>
+                            <constraint firstItem="jwi-5g-wKK" firstAttribute="centerX" secondItem="oip-ft-khU" secondAttribute="centerX" id="R1d-g1-Bi8"/>
+                            <constraint firstItem="tNS-fa-5BN" firstAttribute="centerY" secondItem="oip-ft-khU" secondAttribute="centerY" constant="-93" id="R2m-FO-OkF"/>
+                            <constraint firstItem="vPS-aD-Dt3" firstAttribute="leading" secondItem="oip-ft-khU" secondAttribute="leading" id="V9q-9b-eJA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="opk-f6-h71"/>
+                    <connections>
+                        <outlet property="imgGallary" destination="tNS-fa-5BN" id="uil-Y2-jKT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2JG-in-XUy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621" y="528"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qHh-TM-uab">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="uFg-ua-SM4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q72-nq-oO2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dAt-Ga-hia" kind="relationship" relationship="rootViewController" id="IHX-Dc-Oo4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49E-5u-VQB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46" y="528"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add_img_placeholder-1" width="299" height="299"/>
+    </resources>
+</document>

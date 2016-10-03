@@ -1,0 +1,13 @@
+PODS:
+  - AWSCore (2.4.9)
+  - AWSS3 (2.4.9):
+    - AWSCore (= 2.4.9)
+
+DEPENDENCIES:
+  - AWSS3 (~> 2.4)
+
+SPEC CHECKSUMS:
+  AWSCore: 175208358b95492e0ebe0337df2ab415300bddac
+  AWSS3: e4959b48db48d5f3dcd5cdf9e24a07f60a313611
+
+COCOAPODS: 0.39.0
