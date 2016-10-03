@@ -99,7 +99,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             }else{
                 // Else we successfully uploaded image.
                 // Url of S3 uploaded image should be like below
-                print("https://s3.amazonaws.com/s3-demo-swift/\(bucketName)/demoimage.jpg");
+                print("https://s3.amazonaws.com/s3-demo/\(bucketName)/demoimage.jpg");
             }
             return ""
         })
