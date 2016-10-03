@@ -10,7 +10,7 @@ import UIKit
 
 let bucketName = "<bucket name>"
 let accessKey = "ATRIVEDIKEYEXAMPLE"
-let SecretKey = "wJalrXUtnFEMI/SPACEO/ahITeshEXAMPLEKEY"
+let SecretKey = "jWaltXUntFEMI/SPACEO/ahITeshEXAMPLEKEY"
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
