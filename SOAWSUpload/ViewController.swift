@@ -82,10 +82,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         uploadRequest?.uploadProgress = {(bytesSent:Int64, totalBytesSent:Int64, totalBytesExpectedToSend:Int64) in
             
             dispatch_sync(dispatch_get_main_queue(), { () -> Void in
-                print("total  bytes sent")
                 print(totalBytesSent)
-                
-                print("total  bytes expected to send")
                 print(totalBytesExpectedToSend)
             })
         }
